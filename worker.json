@@ -1,0 +1,6 @@
+{
+  "key": "compatibility.lighthouse",
+  "timeout": 200,
+  "crawl": true,
+  "track": true
+}
