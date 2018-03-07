@@ -10,16 +10,7 @@ All of the checks on [Passmarked](http://passmarked.com) can be voted on importa
 
 ## Synopsis
 
-The rules checked in this module are:
-
-* **defer** - Returned if any Javascript was found in the head that could be moved to the end of the document. This avoids any elements with the async attribute already.
-* **duplicate** - Returned if any CSS/Javascript files returned the same content.
-* **emptysrc** - Returned when a image tag found with a empty element is found.
-* **import** - Returned if @imports were used in any of the CSS files.
-* **inline** - Returned if any inline CSS/Javascript blocks on the page are bigger than 2kb and could be better served in a external file.
-* **order** - Returned if the CSS files are found outside of the head of the file.
-* **querystring** - Returned if the the page contains any assets with a querystring that could cause problems with proxy servers.
-* **type.attribute** - Returned if any CSS/Javascript assets could have their type attribute remove to save a few bytes.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) a large list of rules as well, these rules are cleaned and generated a key according to output. So it's a bit hard to list all the UID's that can be used, the best move is to check [passmarked.com/library/lighthouse](https://passmarked.com/library/lighthouse) for the complete list of rules that can be produced so far and to something specific that you might be looking for.
 
 ## Running
 
