@@ -30,8 +30,6 @@
   "dependencies": {
     "async": "^2.6.0",
     "cheerio": "^1.0.0-rc.2",
-    "chrome-launcher": "^0.10.2",
-    "lighthouse": "^2.9.1",
     "passmarked": "*",
     "request": "^2.83.0",
     "string": "^3.3.3",
